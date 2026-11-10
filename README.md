@@ -7,7 +7,9 @@ Converts `.xlsx` files to CSV. Preserves folder structure. Handles multi-sheet w
 Requires Python 3 and `openpyxl`:
 
 ```
-pip install openpyxl
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install openpyxl
 ```
 
 ## Usage
